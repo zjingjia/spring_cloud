@@ -1,0 +1,28 @@
+server:
+  port: 8763
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/zjingjia/config-repo
+          username: 592352465@qq.com
+          password: 06a122012
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 192.168.12.201
+    port: 5672
+    username: springcloud
+    password: springcloud
+
+
+
+
