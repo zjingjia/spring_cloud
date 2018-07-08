@@ -13,7 +13,7 @@ spring:
         git:
           uri: https://gitee.com/zjingjia/config-repo
           username: 592352465@qq.com
-          password: 06a122012
+          password: 06a12201222
     bus:
       trace:
         enabled: true
